@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Galley</title>
+    <meta name="generator" content="Serif WebPlus X8">
+    <meta name="viewport" content="width=960">
+    <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
+    <style type="text/css">
+      .OBJ-1,.OBJ-1:link,.OBJ-1:visited { background-image:url('wpimages/wpa15decd5_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
+      .OBJ-1:hover { background-position:0px -90px; }
+      .OBJ-1:active,a:link.OBJ-1.Activated,a:link.OBJ-1.Down,a:visited.OBJ-1.Activated,a:visited.OBJ-1.Down,.OBJ-1.Activated,.OBJ-1.Down { background-position:0px -45px; }
+      .OBJ-1.Disabled,a:link.OBJ-1.Disabled,a:visited.OBJ-1.Disabled,a:hover.OBJ-1.Disabled,a:active.OBJ-1.Disabled { background-position:0px -135px; }
+      .OBJ-1:focus { outline-style:none; }
+      button.OBJ-1 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-1:disabled { pointer-events:none; }
+      .OBJ-1.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-1 span,.OBJ-1:link span,.OBJ-1:visited span { color:#ffffff;font-family:"Trebuchet MS",sans-serif;font-weight:normal;text-decoration:none;text-align:center;text-transform:none;font-style:normal;left:1px;top:14px;width:81px;height:14px;line-height:14px;font-size:10px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-2 { line-height:45px; }
+      .C-1 { line-height:25.00px;font-family:"Times New Roman", serif;font-style:italic;font-weight:700;color:#0004ff;background-color:transparent;text-decoration:underline;font-variant:normal;font-size:21.3px;vertical-align:0; }
+      .C-2 { line-height:37.00px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:32.0px;vertical-align:0; }
+      .C-3 { line-height:20.00px;font-family:"Times New Roman", serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .C-4 { line-height:27.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:700;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:21.3px;vertical-align:0; }
+      .C-5 { line-height:16.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:10.7px;vertical-align:0; }
+      .C-6 { line-height:22.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .C-7 { line-height:20.00px;font-family:"Times New Roman", serif;font-style:italic;font-weight:700;color:#000000;background-color:transparent;text-decoration:underline;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .C-8 { line-height:27.00px;font-family:"Trebuchet MS", sans-serif;font-style:italic;font-weight:700;color:#000000;background-color:transparent;text-decoration:underline;font-variant:normal;font-size:21.3px;vertical-align:0; }
+      .C-9 { line-height:18.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#000000;background-color:transparent;text-decoration:none;font-variant:normal;font-size:14.0px;vertical-align:0; }
+    </style>
+    <script type="text/javascript" src="wpscripts/jquery.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.marquee.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.event.move.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.event.swipe.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.wpslider.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#slider_3').data('wpslider', new $.fn.wpslider( { g_nDivId:'#slider_3', g_nTransitStyle:9, g_nLoopTime:2000, g_nAnimationTime:500, g_bPlayAtStart:true, g_nOverlaySlidePos:1, g_nOverlaySlideMargin:20, g_strEasing: "swing" } ) );
+      var btnState = [];
+      $('#slider_7').data('wpslider', new $.fn.wpslider( { g_nDivId:'#slider_7', g_nTransitStyle:9, g_nLoopTime:2000, g_nAnimationTime:500, g_bPlayAtStart:true, g_nOverlaySlidePos:1, g_nOverlaySlideMargin:21, g_strEasing: "swing" } ) );
+      var btnState = [];
+      $('#slider_8').data('wpslider', new $.fn.wpslider( { g_nDivId:'#slider_8', g_nTransitStyle:9, g_nLoopTime:2000, g_nAnimationTime:500, g_bPlayAtStart:true, g_nOverlaySlidePos:1, g_nOverlaySlideMargin:21, g_strEasing: "swing" } ) );
+      var btnState = [];
+      $('#slider_9').data('wpslider', new $.fn.wpslider( { g_nDivId:'#slider_9', g_nTransitStyle:9, g_nLoopTime:2000, g_nAnimationTime:500, g_bPlayAtStart:true, g_nOverlaySlidePos:1, g_nOverlaySlideMargin:20, g_strEasing: "swing" } ) );
+      var btnState = [];
+      $("#marq_1_0").marquee();
+      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
+      $('#slider_3').data('wpslider').restrictSlides();
+      $('#slider_7').data('wpslider').restrictSlides();
+      $('#slider_8').data('wpslider').restrictSlides();
+      $('#slider_9').data('wpslider').restrictSlides();
+      });
+    </script>
+  </head>
+  <body style="height:1052px;background:#ffffff;">
+    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:960px;height:1052px;">
+      <div style="background-color:#51800c;position:absolute;left:0px;top:-1px;width:963px;height:34px;">
+        <div style="font-family:Arial;font-size:25px;font-weight:bold;color:#ffffff;overflow:hidden;position:absolute;top:2px;height:30px;line-height:30px;">
+          <div id="marq_1_0" data-properties="{&quot;behaviour&quot;:&quot;scroll&quot;,&quot;direction&quot;:&quot;left&quot;,&quot;scrollamount&quot;:&quot;1.500000&quot;}" style="position:absolute;left:0px;top:0px;width:963px;height:30px;line-height:30px;">WELCOME&nbsp;TO&nbsp;LUXURIOUS&nbsp;4&nbsp;-&nbsp;STAR&nbsp;HOTEL&nbsp;LOCATED&nbsp;IN&nbsp;THE&nbsp;CITY&nbsp;CENTER</div>
+        </div>
+      </div>
+      <img alt="" src="wpimages/wpb070b99e_06.png" style="position:absolute;left:57px;top:49px;width:20px;height:41px;">
+      <img alt="" src="wpimages/wp2456a39a_06.png" style="position:absolute;left:57px;top:98px;width:20px;height:41px;">
+      <img alt="" src="wpimages/wp1c9e55ab_06.png" style="position:absolute;left:57px;top:49px;width:20px;height:41px;">
+      <img alt="" src="wpimages/wpa877d049_06.png" style="position:absolute;left:57px;top:98px;width:20px;height:41px;">
+      <img alt="" src="wpimages/wp065740fd_06.png" style="position:absolute;left:35px;top:57px;width:29px;height:34px;">
+      <img alt="" src="wpimages/wpd13c68c8_06.png" style="position:absolute;left:69px;top:97px;width:29px;height:34px;">
+      <img alt="" src="wpimages/wp2aa4e94c_06.png" style="position:absolute;left:20px;top:75px;width:42px;height:19px;">
+      <img alt="" src="wpimages/wp49f88f5c_06.png" style="position:absolute;left:70px;top:95px;width:43px;height:19px;">
+      <img alt="" src="wpimages/wpe80c07af_06.png" style="position:absolute;left:20px;top:95px;width:42px;height:19px;">
+      <img alt="" src="wpimages/wpea24e48e_06.png" style="position:absolute;left:71px;top:74px;width:42px;height:19px;">
+      <img alt="" src="wpimages/wp77c15cc3_06.png" style="position:absolute;left:35px;top:97px;width:29px;height:34px;">
+      <img alt="" src="wpimages/wpe91187b8_06.png" style="position:absolute;left:69px;top:57px;width:29px;height:34px;">
+      <div style="position:absolute;left:450px;top:37px;width:601px;height:55px;">
+        <a href="home.html" id="nav_1_B1" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:133px;top:5px;width:84px;height:45px;">
+          <span>Home</span>
+        </a>
+        <a href="about-us2.html" id="nav_1_B2" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:217px;top:5px;width:84px;height:45px;">
+          <span>About&nbsp;us</span>
+        </a>
+        <a href="gallery.html" id="nav_1_B3" class="OBJ-1 ActiveButton Down OBJ-2" style="display:block;position:absolute;left:301px;top:5px;width:84px;height:45px;">
+          <span>Galley</span>
+        </a>
+        <a href="contact-us.html" id="nav_1_B4" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:385px;top:5px;width:84px;height:45px;">
+          <span>Contact&nbsp;us</span>
+        </a>
+      </div>
+      <img alt="HOTEL TICKLE" src="wpimages/wp259f3022_06.png" style="position:absolute;left:131px;top:73px;width:197px;height:33px;">
+      <img alt="" src="wpimages/wp7fb897b3_06.png" style="position:absolute;left:0px;top:154px;width:960px;height:29px;">
+      <div style="position:absolute;left:21px;top:183px;width:393px;height:51px;overflow:hidden;">
+        <p class="Normal"><span class="C-1"><br></span></p>
+      </div>
+      <img alt="ALL COPYRIGHT RESERVED|| BY PRINCE &amp; CATHERINE" src="wpimages/wpb46888d0_06.png" style="position:absolute;left:68px;top:970px;width:402px;height:20px;">
+      <img alt="ALL COPYRIGHT RESERVED|| BY PRINCE &amp; CATHERINE" src="wpimages/wpb46888d0_06.png" style="position:absolute;left:63px;top:1024px;width:402px;height:20px;">
+      <img alt="" src="wpimages/wp8b32c279_05_06.jpg" style="position:absolute;left:509px;top:185px;width:451px;height:258px;">
+      <div style="position:absolute;left:7px;top:187px;width:491px;height:248px;overflow:hidden;">
+        <p class="DefaultParagraph"><span class="C-2">&nbsp;invite you to experience the comfort and luxury of hotel tickle. We offer a wonderful stay with great amenities like restaurant and our team is dedicated to ensuring you have a relaxing and memorable visit.</span></p>
+        <p class="DefaultParagraph"><span class="C-3"><br></span></p>
+        <p class="DefaultParagraph"><span class="C-3"><br></span></p>
+      </div>
+      <div id="slider_3" style="position:absolute;left:3px;top:537px;width:213px;height:365px;overflow:hidden;">
+        <div id="slider_3_P1" style="position:absolute;left:0px;right:0px;width:213px;height:365px;"></div>
+        <div id="slider_3_P2" style="position:absolute;left:0px;right:0px;width:213px;height:365px;visibility:hidden;display:none;">
+          <img alt="" src="wpimages/wp97348ad5_06.png" style="position:absolute;left:0px;top:342px;width:213px;height:23px;">
+          <img alt="" src="wpimages/wp71a4ab53_06.png" style="position:absolute;left:0px;top:23px;width:198px;height:319px;">
+          <img alt="" src="wpimages/wp3aee2f41_06.png" style="position:absolute;left:90px;top:351px;width:33px;height:8px;">
+          <img alt="" src="wpimages/wp87d66293_06.png" style="position:absolute;left:0px;top:254px;width:213px;height:89px;">
+          <div style="position:absolute;left:9px;top:265px;width:194px;height:67px;overflow:hidden;">
+            <p class="Slider-Heading-1"><span class="C-4">CONDUSIVE ENVIRONMENT</span></p>
+            <p class="Body22"><span class="C-5">In hac habitasse platea dictumst. Mauris rutrum Mauris purus. Donec.</span></p>
+          </div>
+        </div>
+      </div>
+      <div id="slider_7" style="position:absolute;left:216px;top:537px;width:213px;height:276px;overflow:hidden;">
+        <div id="slider_7_P1" style="position:absolute;left:0px;right:0px;width:213px;height:276px;"></div>
+        <div id="slider_7_P2" style="position:absolute;left:0px;right:0px;width:213px;height:276px;visibility:hidden;display:none;">
+          <img alt="" src="wpimages/wp97348ad5_06.png" style="position:absolute;left:0px;top:252px;width:213px;height:23px;">
+          <img alt="" src="wpimages/wpec38d36e_05_06.jpg" style="position:absolute;left:6px;top:0px;width:206px;height:249px;">
+          <img alt="" src="wpimages/wp3aee2f41_06.png" style="position:absolute;left:90px;top:261px;width:33px;height:8px;">
+          <img alt="" src="wpimages/wp87d66293_06.png" style="position:absolute;left:0px;top:164px;width:213px;height:89px;">
+          <div style="position:absolute;left:9px;top:149px;width:194px;height:96px;overflow:hidden;">
+            <p class="Body22"><span class="C-6">environment helps individuals feel valued, inspired, and capable of achieving their goals.</span></p>
+          </div>
+        </div>
+      </div>
+      <div id="slider_8" style="position:absolute;left:430px;top:537px;width:213px;height:429px;overflow:hidden;">
+        <div id="slider_8_P1" style="position:absolute;left:0px;right:0px;width:213px;height:429px;"></div>
+        <div id="slider_8_P2" style="position:absolute;left:0px;right:0px;width:213px;height:429px;visibility:hidden;display:none;">
+          <img alt="" src="wpimages/wp97348ad5_06.png" style="position:absolute;left:0px;top:405px;width:213px;height:23px;">
+          <img alt="" src="wpimages/wp203b45b8_06.png" style="position:absolute;left:0px;top:0px;width:213px;height:405px;">
+          <img alt="" src="wpimages/wp3aee2f41_06.png" style="position:absolute;left:90px;top:414px;width:33px;height:8px;">
+          <img alt="" src="wpimages/wp87d66293_06.png" style="position:absolute;left:0px;top:316px;width:213px;height:89px;">
+          <div style="position:absolute;left:9px;top:304px;width:194px;height:94px;overflow:hidden;">
+            <p class="DefaultParagraph"><span class="C-7">BEST FOOD</span></p>
+            <p class="DefaultParagraph"><span class="C-3">The foundation of great hotel food is using fresh, high-<wbr>quality ingredients</span></p>
+            <p class="Slider-Heading-1"><span class="C-8"><br></span></p>
+          </div>
+        </div>
+      </div>
+      <div id="slider_9" style="position:absolute;left:642px;top:537px;width:213px;height:332px;overflow:hidden;">
+        <div id="slider_9_P1" style="position:absolute;left:0px;right:0px;width:213px;height:332px;"></div>
+        <div id="slider_9_P2" style="position:absolute;left:0px;right:0px;width:213px;height:332px;visibility:hidden;display:none;">
+          <img alt="" src="wpimages/wp97348ad5_06.png" style="position:absolute;left:0px;top:309px;width:213px;height:23px;">
+          <img alt="" src="wpimages/wpf98c30c2_06.png" style="position:absolute;left:3px;top:0px;width:210px;height:309px;">
+          <img alt="" src="wpimages/wp3aee2f41_06.png" style="position:absolute;left:90px;top:318px;width:33px;height:8px;">
+          <img alt="" src="wpimages/wp87d66293_06.png" style="position:absolute;left:0px;top:220px;width:213px;height:89px;">
+          <div style="position:absolute;left:9px;top:160px;width:194px;height:144px;overflow:hidden;">
+            <p class="Body22"><span class="C-9">&nbsp;The ambiance of the restaurant or dining area adds to the experience. A clean, comfortable, and inviting space where guests can relax and enjoy their meal plays a big part in pleasing them.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
